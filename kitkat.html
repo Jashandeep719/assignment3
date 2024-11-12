@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KitKat - A Sweet Treat for Sweet lovers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>KitKat: People’s Favorite Chocolate</h1>
+        <nav>
+            <ul>
+                <li><a href="#facts">Fun Facts</a></li>
+                <li><a href="#nutrition">Nutritional Info</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Customer Care</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <h2>Welcome to the World of KitKat</h2> 
+            <img src="maple.jpg" alt="KitKat Bar with Maple Leaf" class="hero-img">
+            <p class="hero-text">Have a KitKat, Have a break!</p>
+        </section>
+
+        <section id="facts">
+            <h2>Fun Facts About KitKat</h2>
+            <ul>
+                <li>KitKat was introduced in 1935 and became popular in Canada and worldwide for its unique taste.</li>
+                <li>In Canada, KitKat is one of the top-selling chocolate bars.</li>
+                <li>There are many flavors available only in Canada, such as Maple KitKat.</li>
+            </ul>
+        </section>
+
+        <section id="nutrition">
+            <h2>Nutritional Information</h2>
+            <table>
+                <tr><th>Component</th><th>Amount</th></tr>
+                <tr><td>Calories</td><td>200 kcal</td></tr>
+                <tr><td>Sugar</td><td>20g</td></tr>
+                <tr><td>Fat</td><td>10g</td></tr>
+            </table>
+        </section>
+
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <div id="review-form">
+                <input type="text" id="review-name" placeholder="Your Name">
+                <textarea id="review-text" placeholder="Write your review..."></textarea>
+                <button onclick="addReview()">Submit Review</button>
+            </div>
+            <div id="review-list">
+                <h3>Recent Reviews</h3>
+                <ul id="reviews-container"></ul>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Explore KitKat Flavors</h2>
+            <img src="originalkitkat.jpg" alt="Original KitKat">
+            <img src="Designer-1.jpeg" alt="Maple KitKat"> 
+            <img src="dark.jpg" alt="Dark Chocolate KitKat">
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p>&copy; 2024 Sweet Treats Inc. | Serving Canada</p>
+            <p>Email: support@kitkat.ca | Phone: 1-000-111-KITKAT</p>
+        </div>
+        <div class="footer-contact">
+            <h3>Customer Care Helpline</h3>
+            <p>Call us at 1-000-111-1234 for assistance!</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

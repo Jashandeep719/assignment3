@@ -1,0 +1,145 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #82101a; 
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+#hero {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1e6d2;
+}
+
+.hero-img {
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    font-weight: bold;                       
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;         
+    font-style: italic;                     
+    color: #81161f;                         
+    text-align: center;                      
+    margin-top: 10px;
+}
+
+
+#facts {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+#facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+
+#nutrition {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#nutrition th, #nutrition td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+#gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#gallery img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+#reviews {
+    padding: 20px;
+    background: #faf3e0;
+    border-radius: 10px;
+}
+
+#review-form input, #review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#review-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #820b15;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 40px;
+}
+
+.footer-info, .footer-contact {
+    font-family: 'Roboto', sans-serif;
+}
